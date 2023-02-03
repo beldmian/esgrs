@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*@font-face {
+  font-family: 'CBR';
+  src: url('https://cbr.ru/common/fonts/PT_Russia-Text.woff2') format('woff');
+}
+* {
+  font-family: "CBR", sans-serif;
+}
+:root {
+  --blue: #3887c6;
+  --blue-dark: #044694;
+  --blue-light: #83c9f5;
+  --blue-opacity10: rgba(56,135,198,.1);
+  --heavenly: #5acaf0;
+  --heavenly-dark: #2890cb;
+  --heavenly-light: #a2e7ff;
+  --heavenly-opacity10: rgba(90,202,240,.1);
+  --red: #da373d;
+  --red-dark: #aa072e;
+  --red-light: #fb9599;
+  --red-opacity10: rgba(218,55,61,.1);
+  --orange: #f4b545;
+  --orange-dark: #c7670e;
+  --orange-light: #ffdc9d;
+  --orange-opacity10: #f4b545;
+  --green: #53a365;
+  --green-dark: #18682a;
+  --green-light: #a6e5b4;
+  --green-opacity10: rgba(83,163,101,.1);
+  --pink: #b4487e;
+  --pink-dark: #8f0c4e;
+  --pink-light: #eb91be;
+  --pink-opacity10: rgba(180,72,126,.1);
+  --purple: #5646a0;
+  --purple-dark: #32256d;
+  --purple-light: #9387ca;
+  --purple-opacity10: #5646a0;
+  --grey: #686e7a;
+  --grey-dark: #25272d;
+  --grey-light: #b0b6c0;
+  --grey-opacity10: hsla(220,8%,44%,.1);
+}
+
